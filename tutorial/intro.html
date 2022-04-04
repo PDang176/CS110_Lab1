@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Page title. Shown in tabs.</title>
+        <link rel="stylesheet" href="intro.css" />
+    </head>
+    <body>
+        <h1>Simple Page!</h1>
+        <p>This is a totally bare-bones page.</p>
+        <!-- this is a comment and is totally ignored -->
+        <tag attribute="value" foo="bar"></tag>
+        <img src="http://i.imgur.com/xTOON7z.png" alt="Take CS132"> 
+        <a href="http://cs.brown.edu/courses/cs132/">Some text displayed to represent the link</a>
+        <ol>
+            <li>The first list item</li>
+            <li>The second list item</li>
+            <li>The third list item</li>
+        </ol>
+        <ul>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item</li>
+        </ul>
+        <table>
+            <thead>
+               <tr>
+                  <th>AND</th>
+                  <th>F</th>
+                  <th>T</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>F</td>
+                  <td>F</td>
+                  <td>F</td>
+               </tr>
+               <tr>
+                  <td>T</td>
+                  <td>F</td>
+                  <td>T</td>
+               </tr>
+            </tbody>
+         </table>
+         <form action="myURL" method="POST">
+            <label for="noodle">What is your favorite type of noodle?</label>
+            <input id="noodle" type="text" required/>
+            <p>Would you eat noodles every day?</p>
+            <input type="radio" name="daily" value="yes" id="yes"/>
+            <label for="yes">Yes, gladly!!</label>
+            <input type="radio" name="daily" value="no" id="no"/>
+            <label for="no">No, that’s impossible</label>
+            <p></p>
+            <input type="submit" value="Submit Response" />
+        </form>
+        <span style="display: none;">This text won’t show up!</span>
+        <ul class="list1-class">
+            <li>List item</li>
+            <li>List item</li>
+        </ul>
+        <ul class="list2-class">
+            <li>List item</li>
+            <li>List item</li>
+        </ul>
+        <div class="wide flex">
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+        </div>
+    </body>
+</html>

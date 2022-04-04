@@ -1,0 +1,44 @@
+p {
+    background-color: black;
+    color: white;
+}
+
+.list1-class {
+    background-color: black;
+    color: white;
+}
+
+.list2-class {
+    background-color: red;
+    color: blue;
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+    h1 {
+        font-size: 64px;
+        color: blue;
+    }
+    #my-id {
+        display: none;
+    }
+}
+
+.wide {
+    width: 1000px;
+    height: 600px;
+    border: solid 1px red;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: solid 1px red;
+} 
+
+.flex {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
