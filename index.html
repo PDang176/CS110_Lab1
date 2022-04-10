@@ -7,7 +7,8 @@
   </head>
   <body>
     <!-- TODO: Create HTML elements for Twitter mockup inside body -->
-    <header role="navigation" class="navbar">
+    <a href="#content" id="skip-link"></a>
+    <header class="navbar" role="navigation">
       <a href="#home">Home</a>
       <a href="#moments">Moments</a>
       <a href="#notif">Notifications</a>
@@ -19,8 +20,10 @@
       <i class="far fa-envelope icon"></i>
 
       <img class="logo" src="./images/twitter-logo.png" alt="Twitter">
+
+      <div id="tweet">Tweet</div>
     </header>
-    <div class="content-wrapper">
+    <div class="content-wrapper" id="content">
       <div class="content-left">
         <div class="banner">
           <img src="./images/ratatouille-banner.png" alt="Ratatouille">
@@ -47,40 +50,57 @@
           </div>
         </div>
       </div>
-      <div class="content-center">
+      <div class="content-center" role="main">
         <div class="content-center-div">
           <img src="./images/ratatouille.jpg" alt="Remy">
-          <div class="info">
+          <div class="content-info">
             <p style="color: #A9A9A9;"><span style="font-weight: bold; color:black;">Remy</span> @remy Nov 19</p>
             <p>I'm taking this class called CS 110 and the TAs are all so <span style="font-weight: bold;">cool!</span></p>
           </div>
         </div>
         <div class="content-center-div">
           <img src="./images/ratatouille.jpg" alt="Remy">
-          <div class="info">
+          <div class="content-info">
             <p style="color: #A9A9A9;"><span style="font-weight: bold; color:black;">Remy</span> @remy Nov 19</p>
             <p>It's 2007. You just got home from elementary school. Your mom has pizza bagels in the oven. Ratatouille is in theaters. Life is good</p>
           </div>
         </div>
         <div class="content-center-div">
           <img src="./images/ratatouille.jpg" alt="Remy">
-          <div class="info">
+          <div class="content-info">
             <p style="color: #A9A9A9;"><span style="font-weight: bold; color:black;">Remy</span> @remy Nov 19</p>
             <p>Let's make some pasta!</p>
           </div>
         </div>
         <div class="content-center-div">
           <img src="./images/ratatouille.jpg" alt="Remy">
-          <div class="info">
+          <div class="content-info">
             <p style="color: #A9A9A9;"><span style="font-weight: bold; color:black;">Remy</span> @remy Nov 19</p>
             <p>Let's make some pasta!</p>
           </div>
         </div>
         <div class="content-center-div">
           <img src="./images/ratatouille.jpg" alt="Remy">
-          <div class="info">
+          <div class="content-info">
             <p style="color: #A9A9A9;"><span style="font-weight: bold; color:black;">Remy</span> @remy Nov 19</p>
             <p>Let's make some pasta!</p>
+          </div>
+        </div>
+      </div>
+      <div class="content-right">
+        <h1>Who to Follow</h1>
+        <div class="follow-user">
+          <img src="./images/linguini.png" alt="Linguini">
+          <div class="follow-info">
+            <p style="color: #A9A9A9;"><span style="font-weight: bold; color:black;">Linguini</span> @linguini</p>
+            <div class="follow">Follow</div>
+          </div>
+        </div>
+        <div class="follow-user">
+          <img src="./images/ratatouille.jpg" alt="Remy">
+          <div class="follow-info">
+            <p style="color: #A9A9A9;"><span style="font-weight: bold; color:black;">CS110 TA</span> @cs</p>
+            <div class="follow">Follow</div>
           </div>
         </div>
       </div>
